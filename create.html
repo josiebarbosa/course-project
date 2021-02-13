@@ -2,16 +2,25 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeSquad Comics | Create New Comic</title>
+    <link rel="stylesheet" type="text/css" href="./public/styles/styles.css">
 </head>
 
 <body>
-    <a href="./index.html"><img src="./public/images/CodeSquad-Comics-logo.png" alt="CodeSquad Comics Logo"></a>
-    <ul>
-        <li><a href="./index.html">HOME</a></li>
-        <li><a href="./about.html">ABOUT</a></li>
-        <li><a href="./login.html">LOGIN</a></li>
-    </ul>
+    <div class="nav">
+        <a href="./index.html"><img src="./public/images/CodeSquad-Comics-logo.png" alt="CodeSquad Comics Logo"
+                class="nav-logo"></a>
+        <ul class="list">
+            <li><a href="./index.html" class="link">HOME</a></li>
+            <li><a href="./about.html" class="link">ABOUT</a></li>
+            <li><a href="./login.html" class="link">LOGIN</a></li>
+        </ul>
+        <br>
+    </div>
+
 
     <h1>CREATE NEW COMIC</h1>
     <form action="#">
@@ -58,24 +67,28 @@
         <button type="submit">Submit</button>
     </form>
 
-    <h4>VISIT US</h4>
-    <p>CodeSquad Comics<br>
-        123 Dorchester Avenue<br>
-        Boston, MA 02124</p>
+    <br>
 
-    <h4>LINKS</h4>
-    <a href="./index.html">Home</a><br>
-    <a href="./about.html">About</a><br>
-    <a href="./login.html">Login</a>
+    <div class="footer">
+        <h4>VISIT US</h4>
+        <p>CodeSquad Comics<br>
+            123 Dorchester Avenue<br>
+            Boston, MA 02124</p>
 
-    <h4>FOLLOW US</h4>
-    <a href="#">Facebook</a><br>
-    <a href="#">Instagram</a><br>
-    <a href="#">Twitter</a><br>
+        <h4>LINKS</h4>
+        <a href="./index.html" class="link">Home</a><br>
+        <a href="./about.html" class="link">About</a><br>
+        <a href="./login.html" class="link">Login</a>
 
-    <h4>A PRODUCT OF</h4>
-    <a href="http://codesquad.org/" target="_blank" rel="noopener noreferrer"><img
-            src="./public/images/CodeSquad-logo-a.png" alt="CodeSquad Logo"></a>
+        <h4>FOLLOW US</h4>
+        <a href="#" class="link">Facebook</a><br>
+        <a href="#" class="link">Instagram</a><br>
+        <a href="#" class="link">Twitter</a><br>
+
+        <h4>A PRODUCT OF</h4>
+        <a href="http://codesquad.org/" target="_blank" rel="noopener noreferrer"><img
+                src="./public/images/CodeSquad-logo-b.png" alt="CodeSquad Logo" class="footer-logo"></a>
+    </div>
 </body>
 
 </html>
